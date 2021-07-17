@@ -1,7 +1,7 @@
 {
   "name": "No PMs Bot",
-  "description": "Modular  Telegram Bot powered by @PyroGram!",
-  "logo": "https://telegra.ph/file/55501e726922e79b8eea9.png",
+  "description": "Modular Telegram Bot powered by @PyroGram!",
+  "logo": "https://telegra.ph/file/a7c4d830ffb038b846347.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -12,9 +12,9 @@
     "channel",
     "administrators"
   ],
-  "repository": "https://github.com/SpEcHIDe/NoPMsBot",
-  "website": "https://telegram.dog/SpEcHlDe",
-  "success_url": "https://t.me/SpEcHlDe/571",
+  "repository": "https://github.com/adityaprasad502/nightcore",
+  "website": "https://telegram.dog/ZenXender",
+  "success_url": "https://t.me/ZenXender",
   "env": {
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal"
@@ -26,10 +26,10 @@
       "description": "Obtain a Telegram bot token by contacting @BotFather"
     },
     "AUTH_CHANNEL": {
-      "description": "List down the user IDs who should have permission to use and reply to users, seperated by SPACE. To get user ids, send /id command to Telegram @OwnErObOT"
+      "description": "ID of the chat where you should receive messages from bot"
     },
     "SUB_CHANNEL": {
-      "description": "Id of Chat, where the User Should Join, in order to use/contact throught bot."
+      "description": "ID of Chat, where the user should join in order to use/contact through the bot."
     }
   },
   "addons": [{

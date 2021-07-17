@@ -4,6 +4,7 @@ from pyrogram.types import Message
 from pyrogram import Client, filters
 
 StartTime = time.time()
+BOT_OWNER = 1093541050
 
 def get_readable_time(seconds: int) -> str:
     count = 0
@@ -25,7 +26,7 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 
-@Client.on_message(~filters.me & filters.command('uptime', prefixes='/'), group=8)
+@Client.on_message(filters.private & filters.command("ping") & filters.user(BOT_OWNER))
 async def ping_bot(_, message):
     start_time = time.time()
     m = await message.reply_text("Pinging...")
